@@ -1,0 +1,124 @@
+body {
+    background-color: #FFA645;
+    font-family: 'Niconne', cursive;
+}
+
+.content {
+    background-color: #FF8500;
+    margin-top: 40px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 1.6em;
+}
+
+.toolbox {
+    background-color: #FF8500;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer {
+    background-color: #FF8500;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.content-title {
+}
+
+.content-subtitle {
+    margin-bottom: 40px;
+}
+
+.explanation {
+    font-size: 20px;
+}
+
+.time-selector {
+    width: 80%;
+}
+
+.clock-container {
+    font-size: 72px;
+}
+
+.timer {
+    padding-top: 10px;
+}
+
+.color-chooser {
+    background-color: black;
+    padding: 3px;
+    border-radius: 0.4em;
+    position: fixed;
+    z-index: 9999;
+}
+
+.color-chooser-text {
+    float: right;
+    margin-right: 10px;
+}
+
+.arrow {
+    float: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-right: 120px;
+}
+
+.color-chooser-cell {
+    width: 15px;
+    height: 15px;
+}
+
+.color-chooser-red { background-color: #ff0000; }
+.color-chooser-green { background-color: #00ff00; }
+.color-chooser-blue { background-color: #0000ff; }
+.color-chooser-orange { background-color: #FF8500; }
+.color-chooser-grey { background-color: #AAAAAA; }
+.color-chooser-white { background-color: #ffffff; }
+
+.hide {	display: none; }
+
+.button {
+    font-family: 'Niconne', cursive;
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    background-color: #F0681B;
+    border-color: #F0681B;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.clock-rotation-1 {
+    transform: rotate(15deg);
+    -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Safari and Chrome */
+    -o-transform: rotate(15deg); /* Opera */
+    -moz-transform: rotate(15deg); /* Firefox */
+}
+
+.clock-rotation-2 {
+    transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg); /* IE 9 */
+    -webkit-transform: rotate(-30deg); /* Safari and Chrome */
+    -o-transform: rotate(-30deg); /* Opera */
+    -moz-transform: rotate(-30deg); /* Firefox */
+}
+
+.clock-rotation-3 {
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    -o-transform: rotate(30deg); /* Opera */
+    -moz-transform: rotate(30deg); /* Firefox */
+}

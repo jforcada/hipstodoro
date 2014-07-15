@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!-- @author Jaime Forcada <elmalvadomonodelarmario@gmail.com> -->
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link href='http://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="hipstodoro.css" type="text/css" media="screen">
+
+    <script src="http://yui.yahooapis.com/3.6.0/build/yui/yui-min.js"></script>
+    <script src="timer.js"></script>
+    <script src="timer-ui.js"></script>
+    <script src="color-chooser.js"></script>
+    <script src="ui.js"></script>
+
+    <title>Hipstodoro</title>
+  </head>
+
+  <body>
+
+    <div class="toolbox">
+      <a id="color-chooser-link" href="#"><img class="arrow" src="img/arrow-down.png"></a>
+      <div class="color-chooser-text">
+	Choose another color 
+      </div>
+    </div>
+
+    <div class="content">
+
+      <h1 class="content-title">Hipstodoro</h1>
+
+      <img src="img/hipster-glasses.png">
+
+      <h2 class="content-title content-subtitle">Another one, more hipster pomodoro</h2>
+
+      <p class="explanation">Use the slide control to specify your desired <b>time</b>,
+	click <b>start</b> and <b>focus</b> on saving the whales!</p>
+      <div class="input-decorator">
+	<input type="range" name="starting-time" min="0" max="8" class="time-selector"/>
+      </div>
+
+      <div class="clock-container">
+	<div class="timer">
+	  <span id="human-time">
+	    45:00
+	  </span>
+	</div>
+	<img id="clock-image" class="clock-rotation" src="img/hipster-clock-mini2.png">
+      </div>
+
+      <button id="start-button" class="button"><b>Start!</b></button>
+      <button id="stop-button" class="button"><b>Stop</b></button>
+
+    </div>
+
+    <div class="footer">footer</div>
+
+    <div id="color-chooser" class="color-chooser hide">
+      <table>
+	<tr>
+	  <td id="red-color" class="color-chooser-cell color-chooser-red"/>
+	  <td id="green-color" class="color-chooser-cell color-chooser-green" />
+	  <td id="blue-color" class="color-chooser-cell color-chooser-blue" />
+	</tr>
+	<tr>
+	  <td id="orange-color" class="color-chooser-cell color-chooser-orange" />
+	  <td id="grey-color" class="color-chooser-cell color-chooser-grey" />
+	  <td id="white-color" class="color-chooser-cell color-chooser-white" />
+	</tr>
+      </table>
+    </div>
+
+    <audio src="sound/alarm_clock.wav" preload="auto" class="hide"></audio>
+
+  </body>
+
+</html>
